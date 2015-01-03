@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4119EEEA191866EC0038B3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EEE9191866EC0038B3EB /* Foundation.framework */; };
+		4119EEEC191866EC0038B3EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EEEB191866EC0038B3EB /* CoreGraphics.framework */; };
+		4119EEEE191866EC0038B3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EEED191866EC0038B3EB /* UIKit.framework */; };
+		4119EEF4191866EC0038B3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4119EEF2191866EC0038B3EB /* InfoPlist.strings */; };
+		4119EEF6191866EC0038B3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4119EEF5191866EC0038B3EB /* main.m */; };
+		4119EEFA191866EC0038B3EB /* gaugeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4119EEF9191866EC0038B3EB /* gaugeAppDelegate.m */; };
+		4119EEFD191866EC0038B3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4119EEFB191866EC0038B3EB /* Main.storyboard */; };
+		4119EF00191866EC0038B3EB /* gaugeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4119EEFF191866EC0038B3EB /* gaugeViewController.m */; };
+		4119EF02191866EC0038B3EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4119EF01191866EC0038B3EB /* Images.xcassets */; };
+		4119EF09191866EC0038B3EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EF08191866EC0038B3EB /* XCTest.framework */; };
+		4119EF0A191866EC0038B3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EEE9191866EC0038B3EB /* Foundation.framework */; };
+		4119EF0B191866EC0038B3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119EEED191866EC0038B3EB /* UIKit.framework */; };
+		4119EF13191866EC0038B3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4119EF11191866EC0038B3EB /* InfoPlist.strings */; };
+		4119EF15191866EC0038B3EB /* GaugeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4119EF14191866EC0038B3EB /* GaugeTests.m */; };
+		4119EF1F191868280038B3EB /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4119EF1E191868280038B3EB /* logo.jpg */; };
+		41390FF919562C9D00888CC5 /* appData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41390FF819562C9D00888CC5 /* appData.plist */; };
+		4166DE25191884B000B55B6E /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4166DE24191884B000B55B6E /* alert.png */; };
+		418AC8C81957183E00E75608 /* redAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = 418AC8C71957183E00E75608 /* redAlert.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4119EF0C191866EC0038B3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4119EEDE191866EC0038B3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4119EEE5191866EC0038B3EB;
+			remoteInfo = Gauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4119EEE6191866EC0038B3EB /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4119EEE9191866EC0038B3EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4119EEEB191866EC0038B3EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4119EEED191866EC0038B3EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4119EEF1191866EC0038B3EB /* Gauge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gauge-Info.plist"; sourceTree = "<group>"; };
+		4119EEF3191866EC0038B3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4119EEF5191866EC0038B3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4119EEF7191866EC0038B3EB /* Gauge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gauge-Prefix.pch"; sourceTree = "<group>"; };
+		4119EEF8191866EC0038B3EB /* gaugeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gaugeAppDelegate.h; sourceTree = "<group>"; };
+		4119EEF9191866EC0038B3EB /* gaugeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gaugeAppDelegate.m; sourceTree = "<group>"; };
+		4119EEFC191866EC0038B3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4119EEFE191866EC0038B3EB /* gaugeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gaugeViewController.h; sourceTree = "<group>"; };
+		4119EEFF191866EC0038B3EB /* gaugeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gaugeViewController.m; sourceTree = "<group>"; };
+		4119EF01191866EC0038B3EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4119EF07191866EC0038B3EB /* GaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4119EF08191866EC0038B3EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4119EF10191866EC0038B3EB /* GaugeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaugeTests-Info.plist"; sourceTree = "<group>"; };
+		4119EF12191866EC0038B3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4119EF14191866EC0038B3EB /* GaugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaugeTests.m; sourceTree = "<group>"; };
+		4119EF1E191868280038B3EB /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		41390FF819562C9D00888CC5 /* appData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appData.plist; sourceTree = "<group>"; };
+		4166DE24191884B000B55B6E /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		418AC8C71957183E00E75608 /* redAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redAlert.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4119EEE3191866EC0038B3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119EEEC191866EC0038B3EB /* CoreGraphics.framework in Frameworks */,
+				4119EEEE191866EC0038B3EB /* UIKit.framework in Frameworks */,
+				4119EEEA191866EC0038B3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4119EF04191866EC0038B3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119EF09191866EC0038B3EB /* XCTest.framework in Frameworks */,
+				4119EF0B191866EC0038B3EB /* UIKit.framework in Frameworks */,
+				4119EF0A191866EC0038B3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4119EEDD191866EC0038B3EB = {
+			isa = PBXGroup;
+			children = (
+				4119EEEF191866EC0038B3EB /* Gauge */,
+				4119EF0E191866EC0038B3EB /* GaugeTests */,
+				4119EEE8191866EC0038B3EB /* Frameworks */,
+				4119EEE7191866EC0038B3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4119EEE7191866EC0038B3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4119EEE6191866EC0038B3EB /* Gauge.app */,
+				4119EF07191866EC0038B3EB /* GaugeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4119EEE8191866EC0038B3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4119EEE9191866EC0038B3EB /* Foundation.framework */,
+				4119EEEB191866EC0038B3EB /* CoreGraphics.framework */,
+				4119EEED191866EC0038B3EB /* UIKit.framework */,
+				4119EF08191866EC0038B3EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4119EEEF191866EC0038B3EB /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				4119EEF8191866EC0038B3EB /* gaugeAppDelegate.h */,
+				4119EEF9191866EC0038B3EB /* gaugeAppDelegate.m */,
+				4119EEFB191866EC0038B3EB /* Main.storyboard */,
+				4119EEFE191866EC0038B3EB /* gaugeViewController.h */,
+				4119EEFF191866EC0038B3EB /* gaugeViewController.m */,
+				4119EF01191866EC0038B3EB /* Images.xcassets */,
+				4119EEF0191866EC0038B3EB /* Supporting Files */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		4119EEF0191866EC0038B3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41390FF819562C9D00888CC5 /* appData.plist */,
+				4166DE24191884B000B55B6E /* alert.png */,
+				418AC8C71957183E00E75608 /* redAlert.png */,
+				4119EF1E191868280038B3EB /* logo.jpg */,
+				4119EEF1191866EC0038B3EB /* Gauge-Info.plist */,
+				4119EEF2191866EC0038B3EB /* InfoPlist.strings */,
+				4119EEF5191866EC0038B3EB /* main.m */,
+				4119EEF7191866EC0038B3EB /* Gauge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4119EF0E191866EC0038B3EB /* GaugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4119EF14191866EC0038B3EB /* GaugeTests.m */,
+				4119EF0F191866EC0038B3EB /* Supporting Files */,
+			);
+			path = GaugeTests;
+			sourceTree = "<group>";
+		};
+		4119EF0F191866EC0038B3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4119EF10191866EC0038B3EB /* GaugeTests-Info.plist */,
+				4119EF11191866EC0038B3EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4119EEE5191866EC0038B3EB /* Gauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4119EF18191866EC0038B3EB /* Build configuration list for PBXNativeTarget "Gauge" */;
+			buildPhases = (
+				4119EEE2191866EC0038B3EB /* Sources */,
+				4119EEE3191866EC0038B3EB /* Frameworks */,
+				4119EEE4191866EC0038B3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gauge;
+			productName = Gauge;
+			productReference = 4119EEE6191866EC0038B3EB /* Gauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4119EF06191866EC0038B3EB /* GaugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4119EF1B191866EC0038B3EB /* Build configuration list for PBXNativeTarget "GaugeTests" */;
+			buildPhases = (
+				4119EF03191866EC0038B3EB /* Sources */,
+				4119EF04191866EC0038B3EB /* Frameworks */,
+				4119EF05191866EC0038B3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4119EF0D191866EC0038B3EB /* PBXTargetDependency */,
+			);
+			name = GaugeTests;
+			productName = GaugeTests;
+			productReference = 4119EF07191866EC0038B3EB /* GaugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4119EEDE191866EC0038B3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = gauge;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gianni;
+				TargetAttributes = {
+					4119EEE5191866EC0038B3EB = {
+						DevelopmentTeam = WEEDB89HLB;
+					};
+					4119EF06191866EC0038B3EB = {
+						TestTargetID = 4119EEE5191866EC0038B3EB;
+					};
+				};
+			};
+			buildConfigurationList = 4119EEE1191866EC0038B3EB /* Build configuration list for PBXProject "Gauge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4119EEDD191866EC0038B3EB;
+			productRefGroup = 4119EEE7191866EC0038B3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4119EEE5191866EC0038B3EB /* Gauge */,
+				4119EF06191866EC0038B3EB /* GaugeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4119EEE4191866EC0038B3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4166DE25191884B000B55B6E /* alert.png in Resources */,
+				4119EF02191866EC0038B3EB /* Images.xcassets in Resources */,
+				418AC8C81957183E00E75608 /* redAlert.png in Resources */,
+				4119EEF4191866EC0038B3EB /* InfoPlist.strings in Resources */,
+				4119EEFD191866EC0038B3EB /* Main.storyboard in Resources */,
+				41390FF919562C9D00888CC5 /* appData.plist in Resources */,
+				4119EF1F191868280038B3EB /* logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4119EF05191866EC0038B3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119EF13191866EC0038B3EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4119EEE2191866EC0038B3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119EEFA191866EC0038B3EB /* gaugeAppDelegate.m in Sources */,
+				4119EEF6191866EC0038B3EB /* main.m in Sources */,
+				4119EF00191866EC0038B3EB /* gaugeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4119EF03191866EC0038B3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4119EF15191866EC0038B3EB /* GaugeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4119EF0D191866EC0038B3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4119EEE5191866EC0038B3EB /* Gauge */;
+			targetProxy = 4119EF0C191866EC0038B3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4119EEF2191866EC0038B3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4119EEF3191866EC0038B3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4119EEFB191866EC0038B3EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4119EEFC191866EC0038B3EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4119EF11191866EC0038B3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4119EF12191866EC0038B3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4119EF16191866EC0038B3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4119EF17191866EC0038B3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4119EF19191866EC0038B3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gauge/Gauge-Prefix.pch";
+				INFOPLIST_FILE = "Gauge/Gauge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4119EF1A191866EC0038B3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gauge/Gauge-Prefix.pch";
+				INFOPLIST_FILE = "Gauge/Gauge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4119EF1C191866EC0038B3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Gauge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gauge/Gauge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GaugeTests/GaugeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4119EF1D191866EC0038B3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Gauge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gauge/Gauge-Prefix.pch";
+				INFOPLIST_FILE = "GaugeTests/GaugeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4119EEE1191866EC0038B3EB /* Build configuration list for PBXProject "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4119EF16191866EC0038B3EB /* Debug */,
+				4119EF17191866EC0038B3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4119EF18191866EC0038B3EB /* Build configuration list for PBXNativeTarget "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4119EF19191866EC0038B3EB /* Debug */,
+				4119EF1A191866EC0038B3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4119EF1B191866EC0038B3EB /* Build configuration list for PBXNativeTarget "GaugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4119EF1C191866EC0038B3EB /* Debug */,
+				4119EF1D191866EC0038B3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4119EEDE191866EC0038B3EB /* Project object */;
+}
